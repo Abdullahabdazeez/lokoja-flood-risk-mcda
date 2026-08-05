@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+title: "GIS-Based Flood Risk and Vulnerability Assessment Using MCDA/AHP — Lokoja LGA, Kogi State, Nigeria"
+type: dataset
+authors:
+  - family-names: "Ayomide"
+    given-names: "Abdullah Abdazeez"
+date-released: 2026-08-05
+repository-code: "https://github.com/Abdullahabdazeez/lokoja-flood-risk-mcda"
+license: MIT
+keywords:
+  - flood risk
+  - MCDA
+  - AHP
+  - GIS
+  - vulnerability
+  - Lokoja
+  - Nigeria

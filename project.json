@@ -1,0 +1,22 @@
+{
+  "project_title": "GIS-Based Flood Risk and Vulnerability Assessment Using MCDA/AHP \u2014 Lokoja LGA, Kogi State, Nigeria",
+  "repository_name": "lokoja-flood-risk-mcda",
+  "study_area": "Lokoja LGA, Kogi State, Nigeria",
+  "area_km2": 3406.818623770666,
+  "classified_hazard_area_km2": 3348.6789487996566,
+  "high_very_high_hazard_area_km2": 1305.1042635889326,
+  "high_very_high_hazard_area_pct": 38.97370525940538,
+  "estimated_population_2020": 253853.883294676,
+  "population_represented_by_risk_map": 221800.1150885134,
+  "risk_map_population_coverage_pct": 87.37314245890252,
+  "high_very_high_risk_population": 71195.49951250484,
+  "high_very_high_risk_population_pct_total": 28.045857951229543,
+  "classified_final_risk_area_km2": 3347.1902762671098,
+  "high_very_high_final_risk_area_km2": 110.38524628421571,
+  "high_very_high_final_risk_area_pct": 3.297847961225579,
+  "roads_high_very_high_hazard_km": 779.8877444612184,
+  "education_facilities_high_very_high_hazard": 7,
+  "health_facilities_high_very_high_hazard": 21,
+  "ahp_consistency_ratio": 0.009282691168439548,
+  "author": "Abdullah Abdazeez Ayomide"
+}
