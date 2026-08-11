@@ -1,0 +1,22 @@
+Authoritative_Result,Value,Unit
+Analytical FHI domain,3353.0751,km2
+AHP consistency ratio,0.0093,ratio
+Very Low upper FHI boundary,3.2,FHI
+Low upper FHI boundary,3.29,FHI
+Moderate upper FHI boundary,3.37,FHI
+High upper FHI boundary,3.83,FHI
+High + Very High hazard area,1136.7099,km2
+Very High hazard area,22.2156,km2
+2012 High+Very High historical capture,85.08,percent
+2018 High+Very High historical capture,86.64,percent
+2022 High+Very High historical capture,86.36,percent
+Minimum AHP perturbation class agreement,76.01434,percent
+Mean AHP perturbation class agreement,91.20526,percent
+Minimum AHP perturbation Spearman rho,0.99666,correlation
+DEM -10 m class agreement,85.43418,percent
+DEM +10 m class agreement,85.4793,percent
+R7B common valid domain,3338.7462,km2
+High+Very High hazard in common domain,1125.6417,km2
+High+Very High hazard remaining High/Very High risk,58.5432,km2
+FHI vs existing risk Spearman rho,0.3578,correlation
+Vulnerability vs existing risk Spearman rho,0.62144,correlation

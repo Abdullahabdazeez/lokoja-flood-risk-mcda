@@ -1,6 +1,0 @@
-system:index,Area_km2,Percentage,Risk_Class,Risk_Level,.geo
-0,273.2859729832313,8.164638112178322,1,Very Low,"{""type"":""MultiPoint"",""coordinates"":[]}"
-1,2282.9940186020535,68.20628139336371,2,Low,"{""type"":""MultiPoint"",""coordinates"":[]}"
-2,680.5250383976094,20.331232533232377,3,Moderate,"{""type"":""MultiPoint"",""coordinates"":[]}"
-3,103.73944310259304,3.0992992492284146,4,High,"{""type"":""MultiPoint"",""coordinates"":[]}"
-4,6.645803181622664,0.19854871199716403,5,Very High,"{""type"":""MultiPoint"",""coordinates"":[]}"

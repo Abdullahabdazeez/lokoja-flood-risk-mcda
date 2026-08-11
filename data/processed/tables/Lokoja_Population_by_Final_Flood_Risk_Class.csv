@@ -1,6 +1,0 @@
-system:index,Percentage_of_Total,Population,Risk_Class,Risk_Level,.geo
-0,1.1803921357598361,2996.4712747313083,1,Very Low,"{""type"":""MultiPoint"",""coordinates"":[]}"
-1,27.20209145520626,69053.56549641033,2,Low,"{""type"":""MultiPoint"",""coordinates"":[]}"
-2,30.944800916706882,78554.57880486692,3,Moderate,"{""type"":""MultiPoint"",""coordinates"":[]}"
-3,26.10677572351366,66273.06397717117,4,High,"{""type"":""MultiPoint"",""coordinates"":[]}"
-4,1.9390822277158788,4922.4355353336705,5,Very High,"{""type"":""MultiPoint"",""coordinates"":[]}"

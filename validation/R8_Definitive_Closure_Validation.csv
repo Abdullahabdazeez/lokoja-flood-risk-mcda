@@ -1,0 +1,20 @@
+Check,Passed
+AHP weights sum exactly to 1,True
+AHP CR retained,True
+Fixed thresholds retained,True
+No quantile classification introduced,True
+2012 validation retained,True
+2018 validation retained,True
+2022 validation retained,True
+AHP sensitivity retained,True
+DEM uncertainty retained,True
+Hazard-risk divergence retained,True
+Risk decomposition labelled descriptive only,True
+No hydraulic depth/probability/return-period claim,True
+Final DOCX report created,True
+Portfolio summary created,True
+Methodology created,True
+Limitations created,True
+Interpretation lock created,True
+Final asset manifest created,True
+Original analytical products not overwritten,True

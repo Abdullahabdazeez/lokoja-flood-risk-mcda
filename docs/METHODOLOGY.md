@@ -1,5 +1,9 @@
 # Methodology
 
-The project used a Multi-Criteria Decision Analysis framework supported by the Analytic Hierarchy Process. Physical hazard indicators included terrain, slope, drainage, rainfall, vegetation, land cover and soil characteristics. Population and building-density layers represented vulnerability.
+The final reconstruction uses eight flood-conditioning criteria combined through an Analytic Hierarchy Process (AHP) weighted linear combination. The locked weights sum to 1.0000 and the documented AHP consistency ratio is 0.0093.
 
-All criteria were projected, aligned and standardised to a common 30-metre analysis grid. Pairwise comparison produced criterion weights, and the resulting AHP consistency ratio was 0.0093. Weighted criteria were combined into hazard and vulnerability indices, then classified into five ordinal classes. Final risk was calculated by integrating hazard and vulnerability. Population, roads, educational facilities and health facilities were overlaid with the final hazard and risk products to quantify exposure.
+The continuous Flood Hazard Index (FHI) was reconstructed at 30 m resolution. The earlier near-equal five-class hazard map was superseded because its class shares were consistent with a quantile-style classification and therefore did not provide fixed, transferable numerical hazard boundaries.
+
+The reconstructed FHI was independently compared with satellite-derived historical flood evidence for the 2012, 2018 and 2022 events. Fixed numerical class boundaries were then calibrated without targeting equal class areas. The locked thresholds are 3.20, 3.29, 3.37 and 3.83.
+
+Robustness was assessed through AHP weight perturbation and DEM vertical-offset stress tests. Final risk was interpreted separately from physical hazard. The existing population-vulnerability and risk surfaces were aligned with the authoritative hazard grid and used to quantify hazard-to-risk modulation. No unrecovered original risk coefficients were invented.
