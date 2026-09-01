@@ -1,0 +1,61 @@
+name: Validate repository
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Validate public portfolio package
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json, sys
+
+          root = Path('.')
+          failures = []
+          required = [
+              'README.md', 'LICENSE', 'CITATION.cff', 'project.json',
+              'docs/PROJECT_REPORT.md',
+              'assets/maps/Lokoja_R7A_Final_Validation_Supported_Flood_Hazard_Map.png',
+              'assets/maps/Lokoja_R7B_Existing_Final_Risk_Interpretation_Map.png'
+          ]
+
+          for rel in required:
+              p = root / rel
+              if not p.exists() or p.stat().st_size == 0:
+                  failures.append(f'Missing or empty: {rel}')
+
+          try:
+              json.loads((root / 'project.json').read_text(encoding='utf-8'))
+          except Exception as exc:
+              failures.append(f'Invalid project.json: {exc}')
+
+          readme = (root / 'README.md').read_text(encoding='utf-8', errors='replace')
+          for term in ['1,136.71', '85.08%', '86.64%', '86.36%', 'hazard is not the same as risk']:
+              if term.lower() not in readme.lower():
+                  failures.append(f'README missing expected final content: {term}')
+
+          for p in root.rglob('*'):
+              if p.is_file() and p.stat().st_size > 95 * 1024 * 1024:
+                  failures.append(f'File exceeds 95 MB: {p}')
+
+          if failures:
+              print('VALIDATION FAILED')
+              for item in failures:
+                  print('-', item)
+              sys.exit(1)
+
+          print('VALIDATION PASSED')
+          print('Lokoja public portfolio package is structurally complete and internally consistent.')
+          PY
