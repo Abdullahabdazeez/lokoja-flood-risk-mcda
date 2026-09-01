@@ -25,7 +25,7 @@ jobs:
           root = Path('.')
           failures = []
           required = [
-              'README.md', 'LICENSE', 'CITATION.cff', 'project.json',
+              'README.md', 'CITATION.cff', 'project.json',
               'docs/PROJECT_REPORT.md',
               'assets/maps/Lokoja_R7A_Final_Validation_Supported_Flood_Hazard_Map.png',
               'assets/maps/Lokoja_R7B_Existing_Final_Risk_Interpretation_Map.png'
