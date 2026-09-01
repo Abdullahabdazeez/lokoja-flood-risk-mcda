@@ -1,5 +1,9 @@
 # Flood Hazard, Vulnerability and Risk in Lokoja, Nigeria
 
+<p align="center">
+  <img src="assets/maps/Lokoja_R7A_Final_Validation_Supported_Flood_Hazard_Map.png" alt="Validation-supported flood hazard map for Lokoja" width="100%">
+</p>
+
 ## What this project asks
 
 Can a GIS-based flood-susceptibility model identify land that has historically flooded in Lokoja, and does the result remain stable when the model assumptions are changed?
@@ -54,6 +58,10 @@ Before setting the final hazard classes, I compared the continuous FHI with sate
 These are fixed numerical thresholds, not equal-area or quantile classes.
 
 ## Hazard is not the same as risk
+
+<p align="center">
+  <img src="assets/maps/Lokoja_R7B_Existing_Final_Risk_Interpretation_Map.png" alt="Population-informed flood risk interpretation for Lokoja" width="100%">
+</p>
 
 The project separates **physical susceptibility** from **population-informed risk**.
 
