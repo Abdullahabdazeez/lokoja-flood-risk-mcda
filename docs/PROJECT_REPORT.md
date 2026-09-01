@@ -56,7 +56,7 @@ A logical next step would combine this screening model with hydraulic simulation
 
 ## Main outputs
 
-Final maps and charts are in [`assets`](../assets/), result tables in [`data`](../data/), validation records in [`validation`](../validation/) and the technical report in [`reports`](../reports/).
+Final maps and charts are in [`assets`](../assets/), result tables in [`data`](../data/) and the technical report in [`reports`](../reports/).
 
 ## Final note
 
