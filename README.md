@@ -95,7 +95,7 @@ That distinction is important because a susceptibility map can show where floodi
 
 ## Repository contents
 
-The repository includes final maps and charts in [`assets`](assets/), authoritative result tables in [`data`](data/), methods and limitations in [`docs`](docs/), the final report in [`reports`](reports/), and validation evidence in [`validation`](validation/).
+The repository includes final maps and charts in [`assets`](assets/), authoritative result tables in [`data`](data/), methods and limitations in [`docs`](docs/), and the final report in [`reports`](reports/).
 
 ## Tools
 
